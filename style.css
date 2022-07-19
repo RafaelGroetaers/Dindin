@@ -1,0 +1,155 @@
+:root{
+    --color1: #2E948A; 
+    --color2: #e5e5e5;
+    --color3: #c4c4c4;
+    --colorfont: #FF4081;
+    --mainfont: 'ubuntu'
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:var(--mainfont)
+}
+/* HEADER */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color1) ;
+    padding: 20px 103px 26px 82px ;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header > .nav{
+    display: flex;
+    list-style: none;
+}
+
+.header > .nav > li {
+    padding: 8px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font: 20px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+
+    color: var(--color2);
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+
+
+@media screen  and (max-width: 660px ){
+    .header{
+        padding: 20px 36px 26px 50px;
+    }
+}
+@media screen  and (max-width: 560px ){
+    .header{
+        padding: 20px;
+        flex-direction:column ;
+    }
+
+    .header > .nav {
+        flex-direction: column;
+    }
+
+    .header > .nav > li{
+        padding: 5px 0px;
+    }
+}
+
+/*CODIGOS DO MAIN */
+
+
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.secundario{
+    display: flex;
+    list-style: none;  
+    background-color: var(--color2);
+    justify-content: flex-end;
+}
+.investimento{
+    display: flex;
+    flex-direction: column;  
+}
+
+.poupando{
+    display: flex;
+    flex-direction: column;
+}
+
+.independencia{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: var(--color2);
+   
+
+}
+main h1{
+    color: var(--colorfont);
+    font-size: 69px;
+        
+}
+main section button{
+    border-radius: 25px;
+    padding: 7px 25px ;
+    color: var(--colorfont);
+    border-color: #FF4081;
+    font-weight: bolder;
+    
+}
+ul li button{
+    width: 125px;
+    border-radius: 15px;
+
+}
+
+/* AQUI COMEÇA OS CÓDIGOS DO FOOTER */
+footer{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+footer button{
+    border-radius: 25px;
+    color: #ffff;
+    margin: 10px;
+    padding: 7px 25px;
+    background: var(--mainfont);
+    border-color: #ffffff;
+  
+}
+
+.depo{
+     padding: 80px;
+}
+
+p{
+    width: 300px;
+    margin: 30px;
+}
