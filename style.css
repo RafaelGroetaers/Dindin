@@ -176,7 +176,7 @@ footer li{
 footer button{
     border-radius: 25px;
     color: #ffff;
-    margin: 10px;
+    margin: 5px;
     padding: 7px 25px;
     background: var(--mainfont);
     border-color: #ffffff;
@@ -240,8 +240,74 @@ footer button{
 .buttoon{
     display: flex;
     flex-direction: column;
+
 }
 .tentativa{
     display: flex;
     justify-content: center;
     background-color: var(--color2);
+}
+
+    /* Estilo dos contatos */
+
+
+.conteudocompleto{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    color: var(--colorfont);
+    font-size: 56px;
+    padding: 200px;
+
+}
+
+.contatos{  
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    
+}
+
+.nome{
+    width: 400px;
+}
+.email{
+    width: 400px;
+}
+.mensagem{
+    width: 400px;
+    height: 100px;
+
+}
+.botaodeenvio{ 
+    width: 120px;
+    height: 30px;
+    background-color: var(--colorfont) ;
+    border: none;
+    border-radius: 15px;
+    color: var(--color2);
+    margin: 10px;
+    
+}
+.mensagem::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+form{
+    padding-bottom: 50px;
+}
+
+.lastimage{
+    margin-left: 300px;
+}
+.imagensdope li{
+    margin: 10px;
+    font-weight: 600;
+}
