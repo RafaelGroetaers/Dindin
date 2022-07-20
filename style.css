@@ -74,29 +74,69 @@ a:link {
 .principal{
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start ;
+    margin: 100px;
    
 }
+.vem_comigo p{
+    margin-left: 0;
 
+}
 .secundario{
     display: flex;
     list-style: none;  
     background-color: var(--color2);
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 0px;
 }
 .investimento{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .poupando{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .independencia{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.depo{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+p{
+   width: 278px;
+   margin: 0px ;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.secundario li{
+   margin: 50px;
+}
+.secundario li h3{
+   color: var(--colorfont);
+   font-size: 25px;
+}
+
+.secundario li button{
+   background-color: var(--colorfont);
+   border: none;
+   color: var(--color2);
+   width: 177px; 
+   height: 40px;
+   border-radius: 25px;
+}
+
 
 a{
     color: var(--color2);
@@ -106,6 +146,7 @@ a{
 main h1{
     color: var(--colorfont);
     font-size: 69px;
+    margin: 0px ;
         
 }
 main section button{
@@ -114,13 +155,10 @@ main section button{
     color: var(--colorfont);
     border-color: #FF4081;
     font-weight: bolder;
+    background-color: var(--color2);
     
 }
-ul li button{
-    width: 125px;
-    border-radius: 15px;
 
-}
 
 /* AQUI COMEÇA OS CÓDIGOS DO FOOTER */
 footer{
@@ -145,11 +183,65 @@ footer button{
   
 }
 
-.depo{
-     padding: 80px;
+/* Mais conteúdo pra você */
+
+.mais_conteudo{
+    list-style: none;
+    display: flex;
+    padding: 45px;
+    padding-left: 0px;
+    justify-content: center;
+    color: black;
+    
+
+    
 }
 
-p{
-    width: 300px;
-    margin: 30px;
+.final{
+    color: var(--color1);
+    padding: 100px; 
 }
+
+.mais_conteudo h4{
+    color: var(--color1);
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.mais_conteudo h2{
+    color: var(--color1);   
+}
+.mais_conteudo p{
+
+}
+.img2{
+    padding-left: 150px;
+}
+
+.img3{
+    padding-left: 150px;
+}
+
+.ultimobotao{
+    display: flex;
+    justify-content: center;
+}
+
+.ultimobotao button{
+    color: var(--colorfont);
+    background-color: var(--color2);
+    border-radius: 25px;
+    border-color: var(--colorfont);
+    width: 200px; 
+    height: 40px;
+    font-weight: 600;
+}
+.buttoon{
+    display: flex;
+    flex-direction: column;
+}
+.tentativa{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
