@@ -291,8 +291,8 @@ footer button{
 }
 .mensagem::placeholder {
     position: absolute;
-    top: 0; 
-    left: 0;
+    top: 1; 
+    left: 1;
 }
 
 input{
@@ -310,4 +310,202 @@ form{
 .imagensdope li{
     margin: 10px;
     font-weight: 600;
+}
+
+.mainblog{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;   
+    margin: 50px;
+}
+.mcp{
+    margin: 50px;
+}
+.mcp h2{
+    font-size:47px ;
+    color: var(--color1);
+    font-weight: 700;
+
+}
+.mcp p{
+    margin-left: -10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 461px;
+    height: 387px;
+    text-align: left;
+    font-weight: 300;
+
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    
+}
+.div2{
+    display: flex;
+    justify-content: center;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+}
+section h3{
+    font-size: 30px ;
+    color: var(--colorfont);
+    font-weight: 500;
+
+}
+section p{
+    font-size: 17px ;
+    width: 516px ;
+    height: 80px;
+    font-weight: 300;
+    text-align: left;
+
+}
+
+
+.div1 div{
+    padding: 30px;
+}
+
+.div2 div{
+    padding: 30px;
+}
+.div3 div{
+    padding: 30px;
+}
+.chess{
+    display: flex;
+    justify-content: center;
+    padding: 180px;
+    
+}
+.chess h2{
+    font-size: 35px ;
+    font-weight: 700;
+    width: 512px;
+    height: 40px;
+    color: var(--colorfont);
+}
+
+.chess p{
+    font-size: 18px ;
+    font-weight: 300;
+    text-align: left;
+    width: 742px;
+    height: 105px;
+
+}
+
+.chess button{
+    background-color: var(--color1);
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.texto{
+    margin: 30px;
+}
+.risqueta{
+    width: 1244px;
+    height: 5px;
+    
+}
+
+.curso h2{
+    width: 263px;
+    height: 69px;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0px;
+    color: var(--colorfont);
+
+}
+.curso p{
+    width: 317px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: -10px;
+}
+.educ{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-right: 850px;
+    padding-bottom: ;
+    
+}
+
+.imagensdocurso{
+    display: flex;
+
+}
+.conteudoprincipalcurso h1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: var(--colorfont);
+    padding-top: 150px;
+
+}
+
+.conteudoprincipalcurso img{
+    padding: 50px;
+}
+
+.conteudoprincipalcurso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudoprincipalcurso p{
+    width: 1032px;
+    height: 1061;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudoprincipalcurso h4{
+    width: 1032px;
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--color1);
+}
+.data{
+    padding-bottom: 50px;
+    color: gray;
+}
+
+.imagensdocurso button{
+    width: 233px;
+    height: 63px;
+    border-radius: 62px;
+    border-style: none;
+    background-color: var(--colorfont);
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.imagensdocurso h3{
+    width: 344px;
+    height: 35.71;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorfont);
+
+}
+
+.imagensdocurso p{
+    width: 293px;
+    height: 74px;
+    font-weight: 300;
+    font-size: 17px;
 }
