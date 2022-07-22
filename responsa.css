@@ -14,7 +14,7 @@ section{
 }
 
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1024px){
     .leituralivros{
         width: 300px;
     }
@@ -44,4 +44,51 @@ section{
     }
 }
 
+@media screen and (max-width: 576px){
+    .leituralivros{
+        width: 150px;
+    }
 
+    .mcp h2{
+        font-size: 15px;
+    }
+
+    .mcp p{
+        font-weight: 300;
+        width: 100px;
+        font-size: 10px;
+        height: auto;
+        
+    }
+    .div1, .div2, .div3{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: left;
+    }
+    .lastimage{
+        margin-left: 0px;
+    }
+    .imagensdope{
+        margin-right: 50px;
+    }
+    .buttoon{
+        margin-left: 50px;
+    }
+    .mainblog{
+        height: 300px;
+    }
+    section img{
+        width: 300px;
+    }
+
+    section h3{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    section p{
+        font-size: 10px;
+        width: 200px;
+    }
+}

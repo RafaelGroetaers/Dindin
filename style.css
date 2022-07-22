@@ -447,7 +447,7 @@ section p{
 .chess{
     display: flex;
     justify-content: center;
-    padding: 180px;
+    padding: 100px;
     
 }
 .chess h2{

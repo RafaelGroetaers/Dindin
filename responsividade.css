@@ -1,0 +1,57 @@
+@media screen and (max-width:1024px)  { 
+    .educ{
+        flex-direction: column;        
+    }
+    .chess{
+        padding: 100px;
+        justify-content: left;
+    }
+    
+    .texto p{
+        width: 395px;
+    }
+    button{
+        margin: 80px;
+    }
+
+    .risqueta{
+        width: 800px;
+    }
+
+}
+@media screen and (max-width:576px)  { 
+    .educ{
+        flex-direction: column;        
+    }
+    .chess{
+        padding: 10px;
+        justify-content: left;
+    }
+    
+    .texto p{
+        width: 300px;
+        font-size: 15px;
+        margin: 0px;
+
+    }
+    button{
+        margin: 80px;
+    }
+    img{
+        width: 250px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .texto h2{
+        width: 150px;
+        font-size: 30px;
+        padding: 55px;
+}
+    .risqueta{
+        width: 50px;
+        margin: 0px;
+    }
+    .texto{
+        margin: 10px;
+    }
+}
