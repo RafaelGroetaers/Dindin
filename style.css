@@ -2,7 +2,9 @@
     --color1: #2E948A; 
     --color2: #e5e5e5;
     --color3: #c4c4c4;
+    --color4: #f6f6f6;
     --colorfont: #FF4081;
+    
     --mainfont: 'ubuntu'
 
 }
@@ -51,7 +53,96 @@ a:link {
     .header{
         padding: 20px 36px 26px 50px;
     }
+    .logoo{
+        width: 150px;
+        height: 50px;
+    }
+    .principal{
+        flex-direction: column;
+        
+    }
+    .principal h1{
+        font-size: 30px;
+    }
+    .vem_comigo p{
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+        width: 100px;
+    }
+    .globoesporte{
+        width: 250px;
+        height: 250px;
+        padding-top: 30px;
+    }
+    .vem_comigo{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .principal p{
+        height: 50px;
+    }
+    .secundario{
+        flex-direction: column;
+    }
+    .mais_conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .lastimage{
+        width: 100px;
+        height: 50px;
+      
+    }
+    .lastimage{
+        margin: 0px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and (max-width: 560px ){
     .header{
         padding: 20px;
@@ -212,9 +303,7 @@ footer button{
 .mais_conteudo h2{
     color: var(--color1);   
 }
-.mais_conteudo p{
 
-}
 .img2{
     padding-left: 150px;
 }
@@ -413,7 +502,8 @@ section p{
 }
 .risqueta{
     width: 1244px;
-    height: 5px;
+    height: 3px;
+    color: var(--color3);
     
 }
 
@@ -438,7 +528,7 @@ section p{
     justify-content: space-around;
     padding-top: 80px;
     padding-right: 850px;
-    padding-bottom: ;
+
     
 }
 
@@ -508,4 +598,63 @@ section p{
     height: 74px;
     font-weight: 300;
     font-size: 17px;
+}
+.conheconossoscursos{
+    color: var(--colorfont);
+    font-weight: 500;
+    font-size: 50px ;
+}
+
+.maisumcurso{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-color: #ffffff;
+}
+.cabecalho{
+    margin-right: 30px;
+    
+}
+.cabecalho h1{
+    font-size: 55px;
+    font-weight: 700;
+    width: 512px;
+    height: 126;
+}
+.cabecalho p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 461px;
+    height: 186;
+    text-align: left;
+    padding-top: 20px;
+}
+.videoaulas{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: var(--color4);
+}
+.videoaulas iframe{
+    padding-right: 90px;
+  
+}
+
+#bodi{
+    background-color: var(--color4);
+}
+.videoaulas p{
+    width: 501px;
+    height: 195px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;   
+}
+.videoaulas h3{
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorfont);
+    
 }
