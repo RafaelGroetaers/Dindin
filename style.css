@@ -93,54 +93,21 @@ a:link {
     footer{
         flex-direction: column;
         margin: 0px;
+       
     }
     .lastimage{
         width: 100px;
         height: 50px;
-      
-    }
-    .lastimage{
         margin: 0px;
+    }
+    .mais_conteudo li{ 
+        padding: 0px;        
+    }
+    footer imag .lastimage{
+        margin: 0px
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen  and (max-width: 560px ){
@@ -156,7 +123,13 @@ a:link {
     .header > .nav > li{
         padding: 5px 0px;
     }
+    .principal h1{
+        color: #c4c4c4;
+    }
+
+
 }
+
 
 /*CODIGOS DO MAIN */
 
@@ -251,7 +224,7 @@ main section button{
 }
 
 
-/* AQUI COMEÇA OS CÓDIGOS DO FOOTER */
+/* AQUI COMEÇA OS CÓDIGOS DO rR */
 footer{
     background-color: var(--color1);
     display: flex;

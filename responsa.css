@@ -1,0 +1,47 @@
+section{
+    background-color: #E5E5E5;
+    padding: 100px;
+}
+.mainblog{
+    margin: 0px;
+}
+.mcp{
+    margin-bottom: 0px;
+    margin-top: 90px;
+}
+.leituralivros{
+    margin: 50px;
+}
+
+
+@media screen and (max-width: 1020px){
+    .leituralivros{
+        width: 300px;
+    }
+
+    .mcp h2{
+        font-size: 35px;
+    }
+
+    .mcp p{
+        font-weight: 600;
+        width: 250px;
+    }
+    .div1, .div2, .div3{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: left;
+    }
+    .lastimage{
+        margin-left: 0px;
+    }
+    .imagensdope{
+        margin-right: 50px;
+    }
+    .buttoon{
+        margin-left: 50px;
+    }
+}
+
+
