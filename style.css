@@ -297,8 +297,14 @@ footer button{
     border-color: var(--colorfont);
     width: 200px; 
     height: 40px;
-    font-weight: 600;
+    font-weight: 600;}
+
+.ultimobotao button:hover {
+    cursor: pointer;
+
 }
+
+
 .buttoon{
     display: flex;
     flex-direction: column;
@@ -631,3 +637,4 @@ section p{
     color: var(--colorfont);
     
 }
+
